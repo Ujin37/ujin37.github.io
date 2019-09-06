@@ -10,17 +10,13 @@
 
   <title> 1Q Jenie </title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <!-- Materalize -->
   <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
+    
     
   <!-- Custom styles for this template -->
   <!--<link href="css/agency.min.css" rel="stylesheet"> -->
@@ -71,7 +67,7 @@
                 </div>
 
                 <div class="row margin">
-                    <div class="input-field col s12">
+                    <div class="input-field col">
                     <!-- <i class="mdi-social-person-outline prefix"></i> -->
                     <i class="material-icons prefix">account_circle</i>
                     <input id="username" name="username" type="text"/>
@@ -80,7 +76,7 @@
                 </div>
 
                 <div class="row margin">
-                    <div class="input-field col s12">
+                    <div class="input-field col">
                     <!-- <i class="mdi-social-person-outline prefix"></i> -->
                     <i class="material-icons prefix">email</i>
                     <input id="email" name="email" type="text" style="cursor: auto;" />
@@ -89,7 +85,7 @@
                 </div>
 
                 <div class="row margin">
-                    <div class="input-field col s12">
+                    <div class="input-field col">
                     <!-- <i class="mdi-action-lock-outline prefix"></i> -->
                     <i class="material-icons prefix">vpn_key</i>
                     <input id="password" name="password" type="password" />
@@ -98,18 +94,38 @@
                 </div>
 
                 <div class="row margin">
-                    <div class="input-field col s12">
+                    <div class="input-field col">
                     <!-- <i class="mdi-action-lock-outline prefix"></i> -->
                     <i class="material-icons prefix">vpn_key</i>
                     <input id="password_a" name="cpassword" type="password" />
                     <label for="password_a">Password again</label>
                     </div>
                 </div>
-
+                
+                <!-- 라디오버튼 -->
+                <p>
+                    <label>
+                        <input type="checkbox" />
+                        <span>Red</span>
+                    </label>
+                </p>
+                <p>
+                <label>
+                    <input type="checkbox" checked="checked" />
+                    <span>Yellow</span>
+                </label>
+                </p>
+                <p>
+                <label>
+                    <input type="checkbox" class="filled-in" checked="checked" />
+                    <span>Filled in</span>
+                </label>
+                </p>
+                <p>
+                    
                 <div class="row">
-                    <div class="input-field col s12">
-                        <button type="submit" class="btn waves-effect waves-light col s12">REGISTER NOW</button>
-          
+                    <div class="input-field col">
+                        <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>REGISTER</a>
                     </div>
                     <div class="input-field col s12">
                         <p class="margin center medium-small sign-up">Already have an account? <a href="./login">Login</a></p>
@@ -125,40 +141,7 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+     
     </div>
   </footer>
 
